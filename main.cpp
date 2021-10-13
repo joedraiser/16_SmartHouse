@@ -23,8 +23,8 @@ int main()
         std::cout << "Input " << hour << ":00 environment state: ";
         std::getline(std::cin, input);
         stream << input;
-        stream >> outsideTemp >> input >> insideTemp >> input >> isMovementDetected >> input >> isLightOn;
-        
+        stream >> outsideTemp >> insideTemp >> isMovementDetected >> isLightOn;
+        continue;
     }
     return 0;
 }
